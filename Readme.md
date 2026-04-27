@@ -32,44 +32,46 @@ Todas las herramientas se acceden desde una **ventana principal** con botones gr
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
+```text
 comercio-exterior-toolkit/
 │
 ├── README.md
 ├── requirements.txt
-├── main.py # Lanza la ventana principal
+├── main.py
 │
-├── src/ # Lógica de cada herramienta
-│ ├── init.py
-│ ├── calculadora_costos.py
-│ ├── conversor_divisas.py
-│ ├── balanza_comercial.py
-│ ├── clasificador_arancelario.py
-│ ├── scraping_commodities.py
-│ ├── generador_cotizaciones.py
-│ └── streamlit_dashboard.py # (opcional, solo si se desea)
+├── src/
+│   ├── __init__.py
+│   ├── calculadora_costos.py
+│   ├── conversor_divisas.py
+│   ├── balanza_comercial.py
+│   ├── clasificador_arancelario.py
+│   ├── scraping_commodities.py
+│   ├── generador_cotizaciones.py
+│   └── streamlit_dashboard.py
 │
-├── gui/ # Componentes de la interfaz gráfica
-│ ├── init.py
-│ ├── ventana_principal.py
-│ ├── ventana_costos.py
-│ ├── ventana_divisas.py
-│ ├── ventana_balanza.py
-│ ├── ventana_arancel.py
-│ ├── ventana_commodities.py
-│ ├── ventana_cotizacion.py
-│ └── estilos.py # Colores, fuentes, ttk themes
+├── gui/
+│   ├── __init__.py
+│   ├── ventana_principal.py
+│   ├── ventana_costos.py
+│   ├── ventana_divisas.py
+│   ├── ventana_balanza.py
+│   ├── ventana_arancel.py
+│   ├── ventana_commodities.py
+│   ├── ventana_cotizacion.py
+│   └── estilos.py
 │
-├── data/ # Archivos generados por el usuario
-│ ├── cotizaciones/ # PDFs exportados
-│ ├── historico_divisas.csv
-│ └── plantilla_cotizacion.png # Logo o membrete
+├── data/
+│   ├── cotizaciones/
+│   ├── historico_divisas.csv
+│   └── plantilla_cotizacion.png
 │
-└── tests/ # Pruebas unitarias (pytest)
-├── test_calculadora.py
-├── test_conversor.py
-└── ...
+└── tests/
+    ├── test_calculadora.py
+    ├── test_conversor.py
+    └── ...
+```
 
 
 
