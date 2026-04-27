@@ -43,7 +43,7 @@ class VentanaBalanza:
             df = descargar_datos_balanza(paises)
             # Actualizar gráfico en el hilo principal
             self.win.after(0, self.mostrar_grafico, df)
-            self.win.after(0, self.estado.set, "Gráfico listo"))
+            self.win.after(0, self.estado.set, "Gráfico listo")
         except Exception as e:
             self.win.after(0, self.estado.set, f"Error: {e}")
     
