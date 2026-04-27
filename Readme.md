@@ -33,6 +33,7 @@ Todas las herramientas se acceden desde una **ventana principal** con botones gr
 ---
 
 ## 📁 Estructura del proyecto
+
 comercio-exterior-toolkit/
 │
 ├── README.md
@@ -70,7 +71,7 @@ comercio-exterior-toolkit/
 ├── test_conversor.py
 └── ...
 
-text
+
 
 ---
 
